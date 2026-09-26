@@ -1,7 +1,7 @@
 {
   "name": "lua-leak-finder",
   "version": "1.0.0",
-  "description": "Discord Bot and Upload API",
+  "description": "Discord Bot and Upload Website for LuaLeak File Finder",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -13,5 +13,8 @@
     "mongoose": "^8.0.0",
     "multer": "^1.4.5-lts.1",
     "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
